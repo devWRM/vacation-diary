@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VACAY</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
 </head>
 <body>
     <h1>Hello</h1>
@@ -19,7 +21,7 @@
         <br /><br />
 
         <!-- CHECKBOX: Select workout preferences -->
-        <label><b>Workout preferences:</b></label>
+        <label class="aqua-text border-text"><b>Workout preferences:</b></label>
         <label for="swim">
             <input type="checkbox" id="swim" value="swim" name="workout">
             Swim
@@ -63,6 +65,24 @@
         </label>
 
     </form>
+
+    <style>
+
+        h1 {
+            font-family: Lobster;
+        }
+
+        .aqua-text {
+            color: aqua;
+            font-size: 20px;
+        }
+
+        .border-text {
+            border-color: red;
+            border-width: 2px;
+            border-style: solid;
+        }
+    </style>
 
 </body>
 </html>
